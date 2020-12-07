@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "KLMS Updater",
+    "version": "1.0",
+    "content_scripts" : [
+        {
+            "matches" : ["http://klms.kaist.ac.kr/login/logout.php"],
+            "js" : ["content.js"]
+        }
+    ]
+}
